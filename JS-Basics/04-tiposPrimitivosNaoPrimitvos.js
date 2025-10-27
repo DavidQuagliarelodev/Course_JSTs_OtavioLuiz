@@ -39,3 +39,4 @@ let alunos2 = alunos
 alunos2.push("Ana")
 console.log("alunos: " + alunos)
 console.log("alunos2: " + alunos2)
+

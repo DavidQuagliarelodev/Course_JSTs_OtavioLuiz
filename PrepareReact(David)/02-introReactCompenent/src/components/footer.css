@@ -1,0 +1,12 @@
+.footer {
+  background-color: #212121;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer span {
+  color: whitesmoke;
+  font-size: 10px;
+}

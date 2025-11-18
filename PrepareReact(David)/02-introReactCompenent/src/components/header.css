@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+  padding: 1rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header li {
+  list-style: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.header img {
+  max-width: 3rem;
+  max-height: 3rem;
+  align-items: center;
+  justify-content: center;
+}

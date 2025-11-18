@@ -1,0 +1,75 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+body{
+    background-image: url(./hero-bg.jpg);
+}
+
+h2{
+    font-weight: 200;
+     background-color: transparent;
+}
+
+main {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div {
+  border: solid whitesmoke 1px;
+  padding: 2rem;
+  border-radius: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+input {
+  margin-bottom: 1em;
+  margin-top: 10px;
+  border: solid 1px;
+  border-radius: 7px;
+  width: 15em;
+  height: 1.5em;
+  background-color: transparent;
+
+}
+
+input::placeholder{
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+#content{
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.199); 
+}
+
+#btn {
+  margin-top: 2em;
+  width: 20em;
+  height: 3em;
+  border-radius: 50px;
+  border: 1px, solid, whitesmoke;
+  cursor: pointer;
+   background-color: transparent;
+}
+
+#btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 1s;
+    
+}
